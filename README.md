@@ -21,4 +21,10 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Initial Setup Steps
+  ```
+  rails new twitter --database=postgresql
+  rails g scaffold post title
+  rails routes
+  rails db:create db:migrate
+  ```
